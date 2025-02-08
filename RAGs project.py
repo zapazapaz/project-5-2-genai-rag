@@ -13,7 +13,7 @@ import openai
 
 # %%
 # Define the dataset path
-dataset_path = r"C:\Users\igriz\Documents\BOOTCAMP 2024\WEEK 8\DAY3\gutenberg_data_cleaned-002.csv"
+dataset_path = 
 
 # Load the dataset
 gutenberg = pd.read_csv(dataset_path)
@@ -96,7 +96,7 @@ print("Embeddings stored successfully in ChromaDB!")
 # %% 
 # Connect to OpenAI API for response generation
 # Initialize OpenAI client
-client = openai.OpenAI(api_key="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")
+client = openai.OpenAI(api_key=)
 
 def generate_response(query):
     # Retrieve relevant documents
